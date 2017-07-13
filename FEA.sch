@@ -44,13 +44,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9300 11300 3    60   Input ~ 0
+Text HLabel 9150 11300 3    60   Input ~ 0
 CLK_P
-Text HLabel 9450 11300 3    60   Input ~ 0
+Text HLabel 9300 11300 3    60   Input ~ 0
 CLK_N
-Text HLabel 9600 11300 3    60   Input ~ 0
+Text HLabel 9450 11300 3    60   Input ~ 0
 CMD_P
-Text HLabel 9750 11300 3    60   Input ~ 0
+Text HLabel 9600 11300 3    60   Input ~ 0
 CMD_N
 $Comp
 L R R?
@@ -70,25 +70,25 @@ $EndComp
 $Comp
 L R R?
 U 1 1 596824BB
-P 4500 11100
+P 4350 11100
 AR Path="/59681795/596824BB" Ref="R?"  Part="1" 
 AR Path="/596819F3/596824BB" Ref="R?"  Part="1" 
 AR Path="/596819F5/596824BB" Ref="R?"  Part="1" 
 AR Path="/596819F7/596824BB" Ref="R?"  Part="1" 
-F 0 "R?" V 4580 11100 50  0000 C CNN
-F 1 "R" V 4500 11100 50  0000 C CNN
-F 2 "" V 4430 11100 50  0001 C CNN
-F 3 "" H 4500 11100 50  0001 C CNN
-	1    4500 11100
+F 0 "R?" V 4430 11100 50  0000 C CNN
+F 1 "R" V 4350 11100 50  0000 C CNN
+F 2 "" V 4280 11100 50  0001 C CNN
+F 3 "" H 4350 11100 50  0001 C CNN
+	1    4350 11100
 	-1   0    0    1   
 $EndComp
-Text Label 4350 10950 3    60   ~ 0
+Text Label 4200 10950 3    60   ~ 0
 VDD_SHUNT_A
 Text Label 17100 11650 1    60   ~ 0
 VDD_SHUNT_D
 Text HLabel 1900 14500 0    138  Input ~ 0
 VIN
-Text Label 4800 11550 1    60   ~ 0
+Text Label 4650 11550 1    60   ~ 0
 VREF_A
 $Comp
 L R R?
@@ -163,7 +163,7 @@ NoConn ~ 18850 9700
 NoConn ~ 18850 9550
 Text Label 2050 7200 0    60   ~ 0
 VIN_D
-Text Label 7050 11400 1    60   ~ 0
+Text Label 6900 11400 1    60   ~ 0
 VIN_D
 Text Label 19650 7900 2    60   ~ 0
 VIN_A
@@ -177,9 +177,9 @@ Text HLabel 1900 15750 0    138  Output ~ 0
 VIN_RET
 Text Label 2550 15750 2    60   ~ 0
 GND
-Text Label 4950 12350 1    60   ~ 0
+Text Label 4800 12350 1    60   ~ 0
 GND
-Text Label 3750 11550 1    60   ~ 0
+Text Label 3600 11550 1    60   ~ 0
 VDDD
 Text Label 16800 11650 1    60   ~ 0
 VREF_D
@@ -187,16 +187,31 @@ Text HLabel 12150 11450 3    60   Output ~ 0
 D0_N
 Text HLabel 12000 11450 3    60   Output ~ 0
 D0_P
-Text Label 6450 11400 1    60   ~ 0
+Text Label 6300 11400 1    60   ~ 0
 VIN_A
 $Comp
 L C C?
 U 1 1 596870E8
-P 5700 11650
+P 5550 11650
 AR Path="/59681795/596870E8" Ref="C?"  Part="1" 
 AR Path="/596819F3/596870E8" Ref="C?"  Part="1" 
 AR Path="/596819F5/596870E8" Ref="C?"  Part="1" 
 AR Path="/596819F7/596870E8" Ref="C?"  Part="1" 
+F 0 "C?" H 5575 11750 50  0000 L CNN
+F 1 "C" H 5575 11550 50  0000 L CNN
+F 2 "" H 5588 11500 50  0001 C CNN
+F 3 "" H 5550 11650 50  0001 C CNN
+	1    5550 11650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5968713C
+P 5700 11650
+AR Path="/59681795/5968713C" Ref="C?"  Part="1" 
+AR Path="/596819F3/5968713C" Ref="C?"  Part="1" 
+AR Path="/596819F5/5968713C" Ref="C?"  Part="1" 
+AR Path="/596819F7/5968713C" Ref="C?"  Part="1" 
 F 0 "C?" H 5725 11750 50  0000 L CNN
 F 1 "C" H 5725 11550 50  0000 L CNN
 F 2 "" H 5738 11500 50  0001 C CNN
@@ -206,12 +221,12 @@ F 3 "" H 5700 11650 50  0001 C CNN
 $EndComp
 $Comp
 L C C?
-U 1 1 5968713C
+U 1 1 5968716E
 P 5850 11650
-AR Path="/59681795/5968713C" Ref="C?"  Part="1" 
-AR Path="/596819F3/5968713C" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968713C" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968713C" Ref="C?"  Part="1" 
+AR Path="/59681795/5968716E" Ref="C?"  Part="1" 
+AR Path="/596819F3/5968716E" Ref="C?"  Part="1" 
+AR Path="/596819F5/5968716E" Ref="C?"  Part="1" 
+AR Path="/596819F7/5968716E" Ref="C?"  Part="1" 
 F 0 "C?" H 5875 11750 50  0000 L CNN
 F 1 "C" H 5875 11550 50  0000 L CNN
 F 2 "" H 5888 11500 50  0001 C CNN
@@ -221,12 +236,12 @@ F 3 "" H 5850 11650 50  0001 C CNN
 $EndComp
 $Comp
 L C C?
-U 1 1 5968716E
+U 1 1 5968719D
 P 6000 11650
-AR Path="/59681795/5968716E" Ref="C?"  Part="1" 
-AR Path="/596819F3/5968716E" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968716E" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968716E" Ref="C?"  Part="1" 
+AR Path="/59681795/5968719D" Ref="C?"  Part="1" 
+AR Path="/596819F3/5968719D" Ref="C?"  Part="1" 
+AR Path="/596819F5/5968719D" Ref="C?"  Part="1" 
+AR Path="/596819F7/5968719D" Ref="C?"  Part="1" 
 F 0 "C?" H 6025 11750 50  0000 L CNN
 F 1 "C" H 6025 11550 50  0000 L CNN
 F 2 "" H 6038 11500 50  0001 C CNN
@@ -236,12 +251,12 @@ F 3 "" H 6000 11650 50  0001 C CNN
 $EndComp
 $Comp
 L C C?
-U 1 1 5968719D
+U 1 1 596871D9
 P 6150 11650
-AR Path="/59681795/5968719D" Ref="C?"  Part="1" 
-AR Path="/596819F3/5968719D" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968719D" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968719D" Ref="C?"  Part="1" 
+AR Path="/596819F3/596871D9" Ref="C?"  Part="1" 
+AR Path="/596819F5/596871D9" Ref="C?"  Part="1" 
+AR Path="/596819F7/596871D9" Ref="C?"  Part="1" 
+AR Path="/59681795/596871D9" Ref="C?"  Part="1" 
 F 0 "C?" H 6175 11750 50  0000 L CNN
 F 1 "C" H 6175 11550 50  0000 L CNN
 F 2 "" H 6188 11500 50  0001 C CNN
@@ -251,27 +266,27 @@ F 3 "" H 6150 11650 50  0001 C CNN
 $EndComp
 $Comp
 L C C?
-U 1 1 596871D9
-P 6300 11650
-AR Path="/596819F3/596871D9" Ref="C?"  Part="1" 
-AR Path="/596819F5/596871D9" Ref="C?"  Part="1" 
-AR Path="/596819F7/596871D9" Ref="C?"  Part="1" 
-AR Path="/59681795/596871D9" Ref="C?"  Part="1" 
-F 0 "C?" H 6325 11750 50  0000 L CNN
-F 1 "C" H 6325 11550 50  0000 L CNN
-F 2 "" H 6338 11500 50  0001 C CNN
-F 3 "" H 6300 11650 50  0001 C CNN
-	1    6300 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
 U 1 1 596887AE
-P 7800 11650
+P 7650 11650
 AR Path="/59681795/596887AE" Ref="C?"  Part="1" 
 AR Path="/596819F3/596887AE" Ref="C?"  Part="1" 
 AR Path="/596819F5/596887AE" Ref="C?"  Part="1" 
 AR Path="/596819F7/596887AE" Ref="C?"  Part="1" 
+F 0 "C?" H 7675 11750 50  0000 L CNN
+F 1 "C" H 7675 11550 50  0000 L CNN
+F 2 "" H 7688 11500 50  0001 C CNN
+F 3 "" H 7650 11650 50  0001 C CNN
+	1    7650 11650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5968886B
+P 7800 11650
+AR Path="/59681795/5968886B" Ref="C?"  Part="1" 
+AR Path="/596819F3/5968886B" Ref="C?"  Part="1" 
+AR Path="/596819F5/5968886B" Ref="C?"  Part="1" 
+AR Path="/596819F7/5968886B" Ref="C?"  Part="1" 
 F 0 "C?" H 7825 11750 50  0000 L CNN
 F 1 "C" H 7825 11550 50  0000 L CNN
 F 2 "" H 7838 11500 50  0001 C CNN
@@ -281,12 +296,12 @@ F 3 "" H 7800 11650 50  0001 C CNN
 $EndComp
 $Comp
 L C C?
-U 1 1 5968886B
+U 1 1 59688991
 P 7950 11650
-AR Path="/59681795/5968886B" Ref="C?"  Part="1" 
-AR Path="/596819F3/5968886B" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968886B" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968886B" Ref="C?"  Part="1" 
+AR Path="/59681795/59688991" Ref="C?"  Part="1" 
+AR Path="/596819F3/59688991" Ref="C?"  Part="1" 
+AR Path="/596819F5/59688991" Ref="C?"  Part="1" 
+AR Path="/596819F7/59688991" Ref="C?"  Part="1" 
 F 0 "C?" H 7975 11750 50  0000 L CNN
 F 1 "C" H 7975 11550 50  0000 L CNN
 F 2 "" H 7988 11500 50  0001 C CNN
@@ -296,12 +311,12 @@ F 3 "" H 7950 11650 50  0001 C CNN
 $EndComp
 $Comp
 L C C?
-U 1 1 59688991
+U 1 1 596889CD
 P 8100 11650
-AR Path="/59681795/59688991" Ref="C?"  Part="1" 
-AR Path="/596819F3/59688991" Ref="C?"  Part="1" 
-AR Path="/596819F5/59688991" Ref="C?"  Part="1" 
-AR Path="/596819F7/59688991" Ref="C?"  Part="1" 
+AR Path="/596819F3/596889CD" Ref="C?"  Part="1" 
+AR Path="/596819F5/596889CD" Ref="C?"  Part="1" 
+AR Path="/596819F7/596889CD" Ref="C?"  Part="1" 
+AR Path="/59681795/596889CD" Ref="C?"  Part="1" 
 F 0 "C?" H 8125 11750 50  0000 L CNN
 F 1 "C" H 8125 11550 50  0000 L CNN
 F 2 "" H 8138 11500 50  0001 C CNN
@@ -311,42 +326,29 @@ F 3 "" H 8100 11650 50  0001 C CNN
 $EndComp
 $Comp
 L C C?
-U 1 1 596889CD
-P 8250 11650
-AR Path="/596819F3/596889CD" Ref="C?"  Part="1" 
-AR Path="/596819F5/596889CD" Ref="C?"  Part="1" 
-AR Path="/596819F7/596889CD" Ref="C?"  Part="1" 
-AR Path="/59681795/596889CD" Ref="C?"  Part="1" 
-F 0 "C?" H 8275 11750 50  0000 L CNN
-F 1 "C" H 8275 11550 50  0000 L CNN
-F 2 "" H 8288 11500 50  0001 C CNN
-F 3 "" H 8250 11650 50  0001 C CNN
-	1    8250 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
 U 1 1 59688A0C
-P 7650 11650
+P 7500 11650
 AR Path="/596819F3/59688A0C" Ref="C?"  Part="1" 
 AR Path="/596819F5/59688A0C" Ref="C?"  Part="1" 
 AR Path="/596819F7/59688A0C" Ref="C?"  Part="1" 
 AR Path="/59681795/59688A0C" Ref="C?"  Part="1" 
-F 0 "C?" H 7675 11750 50  0000 L CNN
-F 1 "C" H 7675 11550 50  0000 L CNN
-F 2 "" H 7688 11500 50  0001 C CNN
-F 3 "" H 7650 11650 50  0001 C CNN
-	1    7650 11650
+F 0 "C?" H 7525 11750 50  0000 L CNN
+F 1 "C" H 7525 11550 50  0000 L CNN
+F 2 "" H 7538 11500 50  0001 C CNN
+F 3 "" H 7500 11650 50  0001 C CNN
+	1    7500 11650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 10600 4350 10950
+	4200 10600 4200 10950
 Wire Wire Line
-	4500 10600 4500 10950
+	4350 10600 4350 10950
 Wire Wire Line
 	17100 11650 17100 10600
 Wire Wire Line
 	17400 11350 17400 10600
+Wire Wire Line
+	9150 10600 9150 11300
 Wire Wire Line
 	9300 10600 9300 11300
 Wire Wire Line
@@ -354,9 +356,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 10600 9600 11300
 Wire Wire Line
-	9750 10600 9750 11300
-Wire Wire Line
-	4800 10600 4800 11550
+	4650 10600 4650 11550
 Wire Wire Line
 	3050 14350 3050 14700
 Wire Wire Line
@@ -400,9 +400,7 @@ Wire Wire Line
 	2850 7350 2400 7350
 Connection ~ 2400 7350
 Wire Wire Line
-	7050 11400 7050 10600
-Wire Wire Line
-	6300 10600 6300 11500
+	6900 11400 6900 10600
 Wire Wire Line
 	6150 10600 6150 11500
 Wire Wire Line
@@ -410,9 +408,9 @@ Wire Wire Line
 Wire Wire Line
 	5850 10600 5850 11500
 Wire Wire Line
-	7650 10600 7650 11500
+	5700 10600 5700 11500
 Wire Wire Line
-	8250 10600 8250 11500
+	7500 10600 7500 11500
 Wire Wire Line
 	8100 10600 8100 11500
 Wire Wire Line
@@ -420,22 +418,24 @@ Wire Wire Line
 Wire Wire Line
 	7800 10600 7800 11500
 Wire Wire Line
-	6900 11050 6900 10600
+	7650 10600 7650 11500
 Wire Wire Line
-	6750 10600 6750 11050
+	6750 11050 6750 10600
 Wire Wire Line
 	6600 10600 6600 11050
 Wire Wire Line
-	7050 11050 7500 11050
+	6450 10600 6450 11050
 Wire Wire Line
-	7500 11050 7500 10600
-Connection ~ 7050 11050
+	6900 11050 7350 11050
 Wire Wire Line
-	7350 10600 7350 11050
-Connection ~ 7350 11050
+	7350 11050 7350 10600
+Connection ~ 6900 11050
 Wire Wire Line
 	7200 10600 7200 11050
 Connection ~ 7200 11050
+Wire Wire Line
+	7050 10600 7050 11050
+Connection ~ 7050 11050
 Wire Wire Line
 	19650 7900 18850 7900
 Wire Wire Line
@@ -491,15 +491,15 @@ Connection ~ 14850 11050
 Wire Wire Line
 	1900 15750 2550 15750
 Wire Wire Line
-	4950 10600 4950 12350
-Wire Wire Line
-	5550 10600 5550 12100
+	4800 10600 4800 12350
 Wire Wire Line
 	5400 10600 5400 12100
 Wire Wire Line
 	5250 10600 5250 12100
 Wire Wire Line
 	5100 10600 5100 12100
+Wire Wire Line
+	4950 10600 4950 12100
 Wire Wire Line
 	16050 12100 16050 10600
 Wire Wire Line
@@ -511,9 +511,7 @@ Wire Wire Line
 Wire Wire Line
 	16200 12100 16200 10600
 Wire Wire Line
-	8400 12100 8400 10600
-Wire Wire Line
-	9000 12100 9000 10600
+	8250 12100 8250 10600
 Wire Wire Line
 	8850 12100 8850 10600
 Wire Wire Line
@@ -521,35 +519,40 @@ Wire Wire Line
 Wire Wire Line
 	8550 12100 8550 10600
 Wire Wire Line
-	3750 10600 3750 11550
+	8400 12100 8400 10600
+Wire Wire Line
+	3600 10600 3600 11550
+Connection ~ 3600 10950
+Wire Wire Line
+	3750 10600 3750 10950
 Connection ~ 3750 10950
 Wire Wire Line
-	3900 10600 3900 10950
-Connection ~ 3900 10950
+	3900 10950 3900 10600
 Wire Wire Line
-	4050 10950 4050 10600
-Wire Wire Line
-	3750 10950 4050 10950
+	3600 10950 3900 10950
 Wire Wire Line
 	16800 10600 16800 11650
 Wire Wire Line
 	12150 10600 12150 11450
 Wire Wire Line
 	12000 10600 12000 11450
-Connection ~ 6750 11050
 Connection ~ 6600 11050
-Wire Wire Line
-	6450 11050 6900 11050
 Connection ~ 6450 11050
 Wire Wire Line
-	6450 11400 6450 10600
+	6300 11050 6750 11050
+Connection ~ 6300 11050
 Wire Wire Line
-	5700 10600 5700 11500
+	6300 11400 6300 10600
 Wire Wire Line
-	5700 11800 5700 12100
+	5550 10600 5550 11500
 Wire Wire Line
-	4950 12100 9150 12100
-Connection ~ 4950 12100
+	5550 11800 5550 12100
+Wire Wire Line
+	4800 12100 9000 12100
+Connection ~ 4800 12100
+Wire Wire Line
+	5700 12100 5700 11800
+Connection ~ 5550 12100
 Wire Wire Line
 	5850 12100 5850 11800
 Connection ~ 5700 12100
@@ -560,14 +563,8 @@ Wire Wire Line
 	6150 12100 6150 11800
 Connection ~ 6000 12100
 Wire Wire Line
-	6300 12100 6300 11800
+	8100 12100 8100 11800
 Connection ~ 6150 12100
-Wire Wire Line
-	8250 12100 8250 11800
-Connection ~ 6300 12100
-Wire Wire Line
-	8100 11800 8100 12100
-Connection ~ 8100 12100
 Wire Wire Line
 	7950 11800 7950 12100
 Connection ~ 7950 12100
@@ -577,18 +574,21 @@ Connection ~ 7800 12100
 Wire Wire Line
 	7650 11800 7650 12100
 Connection ~ 7650 12100
+Wire Wire Line
+	7500 11800 7500 12100
+Connection ~ 7500 12100
+Connection ~ 8100 12100
 Connection ~ 8250 12100
 Connection ~ 8400 12100
 Connection ~ 8550 12100
 Connection ~ 8700 12100
-Connection ~ 8850 12100
+Connection ~ 4950 12100
 Connection ~ 5100 12100
 Connection ~ 5250 12100
 Connection ~ 5400 12100
-Connection ~ 5550 12100
 Wire Wire Line
-	9150 12100 9150 10600
-Connection ~ 9000 12100
+	9000 12100 9000 10600
+Connection ~ 8850 12100
 Text Label 12600 12350 1    60   ~ 0
 GND
 $Comp
@@ -1307,4 +1307,10 @@ F 3 "" H 6500 4550 60  0001 C CNN
 	1    10250 6400
 	1    0    0    -1  
 $EndComp
+NoConn ~ 11250 10600
+NoConn ~ 11100 10600
+NoConn ~ 11700 10600
+NoConn ~ 11550 10600
+NoConn ~ 10800 10600
+NoConn ~ 10650 10600
 $EndSCHEMATC
