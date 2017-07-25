@@ -169,10 +169,6 @@ Text Label 19650 7900 2    60   ~ 0
 VIN_A
 Text Label 19650 7300 2    60   ~ 0
 VIN_D
-Text Label 14100 11400 1    60   ~ 0
-VIN_A
-Text Label 14700 11400 1    60   ~ 0
-VIN_D
 Text HLabel 1900 15750 0    138  Output ~ 0
 VIN_RET
 Text Label 2550 15750 2    60   ~ 0
@@ -189,156 +185,6 @@ Text HLabel 12000 11450 3    60   Output ~ 0
 D0_P
 Text Label 6300 11400 1    60   ~ 0
 VIN_A
-$Comp
-L C C?
-U 1 1 596870E8
-P 5550 11650
-AR Path="/59681795/596870E8" Ref="C?"  Part="1" 
-AR Path="/596819F3/596870E8" Ref="C?"  Part="1" 
-AR Path="/596819F5/596870E8" Ref="C?"  Part="1" 
-AR Path="/596819F7/596870E8" Ref="C?"  Part="1" 
-F 0 "C?" H 5575 11750 50  0000 L CNN
-F 1 "C" H 5575 11550 50  0000 L CNN
-F 2 "" H 5588 11500 50  0001 C CNN
-F 3 "" H 5550 11650 50  0001 C CNN
-	1    5550 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5968713C
-P 5700 11650
-AR Path="/59681795/5968713C" Ref="C?"  Part="1" 
-AR Path="/596819F3/5968713C" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968713C" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968713C" Ref="C?"  Part="1" 
-F 0 "C?" H 5725 11750 50  0000 L CNN
-F 1 "C" H 5725 11550 50  0000 L CNN
-F 2 "" H 5738 11500 50  0001 C CNN
-F 3 "" H 5700 11650 50  0001 C CNN
-	1    5700 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5968716E
-P 5850 11650
-AR Path="/59681795/5968716E" Ref="C?"  Part="1" 
-AR Path="/596819F3/5968716E" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968716E" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968716E" Ref="C?"  Part="1" 
-F 0 "C?" H 5875 11750 50  0000 L CNN
-F 1 "C" H 5875 11550 50  0000 L CNN
-F 2 "" H 5888 11500 50  0001 C CNN
-F 3 "" H 5850 11650 50  0001 C CNN
-	1    5850 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5968719D
-P 6000 11650
-AR Path="/59681795/5968719D" Ref="C?"  Part="1" 
-AR Path="/596819F3/5968719D" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968719D" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968719D" Ref="C?"  Part="1" 
-F 0 "C?" H 6025 11750 50  0000 L CNN
-F 1 "C" H 6025 11550 50  0000 L CNN
-F 2 "" H 6038 11500 50  0001 C CNN
-F 3 "" H 6000 11650 50  0001 C CNN
-	1    6000 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 596871D9
-P 6150 11650
-AR Path="/596819F3/596871D9" Ref="C?"  Part="1" 
-AR Path="/596819F5/596871D9" Ref="C?"  Part="1" 
-AR Path="/596819F7/596871D9" Ref="C?"  Part="1" 
-AR Path="/59681795/596871D9" Ref="C?"  Part="1" 
-F 0 "C?" H 6175 11750 50  0000 L CNN
-F 1 "C" H 6175 11550 50  0000 L CNN
-F 2 "" H 6188 11500 50  0001 C CNN
-F 3 "" H 6150 11650 50  0001 C CNN
-	1    6150 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 596887AE
-P 7650 11650
-AR Path="/59681795/596887AE" Ref="C?"  Part="1" 
-AR Path="/596819F3/596887AE" Ref="C?"  Part="1" 
-AR Path="/596819F5/596887AE" Ref="C?"  Part="1" 
-AR Path="/596819F7/596887AE" Ref="C?"  Part="1" 
-F 0 "C?" H 7675 11750 50  0000 L CNN
-F 1 "C" H 7675 11550 50  0000 L CNN
-F 2 "" H 7688 11500 50  0001 C CNN
-F 3 "" H 7650 11650 50  0001 C CNN
-	1    7650 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5968886B
-P 7800 11650
-AR Path="/59681795/5968886B" Ref="C?"  Part="1" 
-AR Path="/596819F3/5968886B" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968886B" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968886B" Ref="C?"  Part="1" 
-F 0 "C?" H 7825 11750 50  0000 L CNN
-F 1 "C" H 7825 11550 50  0000 L CNN
-F 2 "" H 7838 11500 50  0001 C CNN
-F 3 "" H 7800 11650 50  0001 C CNN
-	1    7800 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 59688991
-P 7950 11650
-AR Path="/59681795/59688991" Ref="C?"  Part="1" 
-AR Path="/596819F3/59688991" Ref="C?"  Part="1" 
-AR Path="/596819F5/59688991" Ref="C?"  Part="1" 
-AR Path="/596819F7/59688991" Ref="C?"  Part="1" 
-F 0 "C?" H 7975 11750 50  0000 L CNN
-F 1 "C" H 7975 11550 50  0000 L CNN
-F 2 "" H 7988 11500 50  0001 C CNN
-F 3 "" H 7950 11650 50  0001 C CNN
-	1    7950 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 596889CD
-P 8100 11650
-AR Path="/596819F3/596889CD" Ref="C?"  Part="1" 
-AR Path="/596819F5/596889CD" Ref="C?"  Part="1" 
-AR Path="/596819F7/596889CD" Ref="C?"  Part="1" 
-AR Path="/59681795/596889CD" Ref="C?"  Part="1" 
-F 0 "C?" H 8125 11750 50  0000 L CNN
-F 1 "C" H 8125 11550 50  0000 L CNN
-F 2 "" H 8138 11500 50  0001 C CNN
-F 3 "" H 8100 11650 50  0001 C CNN
-	1    8100 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 59688A0C
-P 7500 11650
-AR Path="/596819F3/59688A0C" Ref="C?"  Part="1" 
-AR Path="/596819F5/59688A0C" Ref="C?"  Part="1" 
-AR Path="/596819F7/59688A0C" Ref="C?"  Part="1" 
-AR Path="/59681795/59688A0C" Ref="C?"  Part="1" 
-F 0 "C?" H 7525 11750 50  0000 L CNN
-F 1 "C" H 7525 11550 50  0000 L CNN
-F 2 "" H 7538 11500 50  0001 C CNN
-F 3 "" H 7500 11650 50  0001 C CNN
-	1    7500 11650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4200 10600 4200 10950
 Wire Wire Line
@@ -402,23 +248,7 @@ Connection ~ 2400 7350
 Wire Wire Line
 	6900 11400 6900 10600
 Wire Wire Line
-	6150 10600 6150 11500
-Wire Wire Line
-	6000 10600 6000 11500
-Wire Wire Line
-	5850 10600 5850 11500
-Wire Wire Line
-	5700 10600 5700 11500
-Wire Wire Line
-	7500 10600 7500 11500
-Wire Wire Line
 	8100 10600 8100 11500
-Wire Wire Line
-	7950 10600 7950 11500
-Wire Wire Line
-	7800 10600 7800 11500
-Wire Wire Line
-	7650 10600 7650 11500
 Wire Wire Line
 	6750 11050 6750 10600
 Wire Wire Line
@@ -463,32 +293,6 @@ Wire Wire Line
 	18850 7150 19300 7150
 Connection ~ 19300 7150
 Wire Wire Line
-	14100 11400 14100 10600
-Wire Wire Line
-	14700 11400 14700 10600
-Wire Wire Line
-	14100 11050 14550 11050
-Wire Wire Line
-	14550 11050 14550 10600
-Connection ~ 14100 11050
-Wire Wire Line
-	14400 10600 14400 11050
-Connection ~ 14400 11050
-Wire Wire Line
-	14250 10600 14250 11050
-Connection ~ 14250 11050
-Wire Wire Line
-	14700 11050 15150 11050
-Wire Wire Line
-	15150 11050 15150 10600
-Connection ~ 14700 11050
-Wire Wire Line
-	15000 10600 15000 11050
-Connection ~ 15000 11050
-Wire Wire Line
-	14850 10600 14850 11050
-Connection ~ 14850 11050
-Wire Wire Line
 	1900 15750 2550 15750
 Wire Wire Line
 	4800 10600 4800 12350
@@ -500,16 +304,6 @@ Wire Wire Line
 	5100 10600 5100 12100
 Wire Wire Line
 	4950 10600 4950 12100
-Wire Wire Line
-	16050 12100 16050 10600
-Wire Wire Line
-	16650 10600 16650 12100
-Wire Wire Line
-	16500 10600 16500 12100
-Wire Wire Line
-	16350 10600 16350 12100
-Wire Wire Line
-	16200 12100 16200 10600
 Wire Wire Line
 	8250 12100 8250 10600
 Wire Wire Line
@@ -531,7 +325,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 10950 3900 10950
 Wire Wire Line
-	16800 10600 16800 11650
+	16800 10600 16800 12100
 Wire Wire Line
 	12150 10600 12150 11450
 Wire Wire Line
@@ -543,41 +337,7 @@ Wire Wire Line
 Connection ~ 6300 11050
 Wire Wire Line
 	6300 11400 6300 10600
-Wire Wire Line
-	5550 10600 5550 11500
-Wire Wire Line
-	5550 11800 5550 12100
-Wire Wire Line
-	4800 12100 9000 12100
 Connection ~ 4800 12100
-Wire Wire Line
-	5700 12100 5700 11800
-Connection ~ 5550 12100
-Wire Wire Line
-	5850 12100 5850 11800
-Connection ~ 5700 12100
-Wire Wire Line
-	6000 12100 6000 11800
-Connection ~ 5850 12100
-Wire Wire Line
-	6150 12100 6150 11800
-Connection ~ 6000 12100
-Wire Wire Line
-	8100 12100 8100 11800
-Connection ~ 6150 12100
-Wire Wire Line
-	7950 11800 7950 12100
-Connection ~ 7950 12100
-Wire Wire Line
-	7800 11800 7800 12100
-Connection ~ 7800 12100
-Wire Wire Line
-	7650 11800 7650 12100
-Connection ~ 7650 12100
-Wire Wire Line
-	7500 11800 7500 12100
-Connection ~ 7500 12100
-Connection ~ 8100 12100
 Connection ~ 8250 12100
 Connection ~ 8400 12100
 Connection ~ 8550 12100
@@ -589,229 +349,6 @@ Connection ~ 5400 12100
 Wire Wire Line
 	9000 12100 9000 10600
 Connection ~ 8850 12100
-Text Label 12600 12350 1    60   ~ 0
-GND
-$Comp
-L C C?
-U 1 1 5968ADE0
-P 13350 11650
-AR Path="/596819F3/5968ADE0" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968ADE0" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968ADE0" Ref="C?"  Part="1" 
-AR Path="/59681795/5968ADE0" Ref="C?"  Part="1" 
-F 0 "C?" H 13375 11750 50  0000 L CNN
-F 1 "C" H 13375 11550 50  0000 L CNN
-F 2 "" H 13388 11500 50  0001 C CNN
-F 3 "" H 13350 11650 50  0001 C CNN
-	1    13350 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5968ADE6
-P 13500 11650
-AR Path="/596819F3/5968ADE6" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968ADE6" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968ADE6" Ref="C?"  Part="1" 
-AR Path="/59681795/5968ADE6" Ref="C?"  Part="1" 
-F 0 "C?" H 13525 11750 50  0000 L CNN
-F 1 "C" H 13525 11550 50  0000 L CNN
-F 2 "" H 13538 11500 50  0001 C CNN
-F 3 "" H 13500 11650 50  0001 C CNN
-	1    13500 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5968ADEC
-P 13650 11650
-AR Path="/596819F3/5968ADEC" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968ADEC" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968ADEC" Ref="C?"  Part="1" 
-AR Path="/59681795/5968ADEC" Ref="C?"  Part="1" 
-F 0 "C?" H 13675 11750 50  0000 L CNN
-F 1 "C" H 13675 11550 50  0000 L CNN
-F 2 "" H 13688 11500 50  0001 C CNN
-F 3 "" H 13650 11650 50  0001 C CNN
-	1    13650 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5968ADF2
-P 13800 11650
-AR Path="/596819F3/5968ADF2" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968ADF2" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968ADF2" Ref="C?"  Part="1" 
-AR Path="/59681795/5968ADF2" Ref="C?"  Part="1" 
-F 0 "C?" H 13825 11750 50  0000 L CNN
-F 1 "C" H 13825 11550 50  0000 L CNN
-F 2 "" H 13838 11500 50  0001 C CNN
-F 3 "" H 13800 11650 50  0001 C CNN
-	1    13800 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5968ADF8
-P 13950 11650
-AR Path="/596819F3/5968ADF8" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968ADF8" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968ADF8" Ref="C?"  Part="1" 
-AR Path="/59681795/5968ADF8" Ref="C?"  Part="1" 
-F 0 "C?" H 13975 11750 50  0000 L CNN
-F 1 "C" H 13975 11550 50  0000 L CNN
-F 2 "" H 13988 11500 50  0001 C CNN
-F 3 "" H 13950 11650 50  0001 C CNN
-	1    13950 11650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13950 10600 13950 11500
-Wire Wire Line
-	13800 10600 13800 11500
-Wire Wire Line
-	13650 10600 13650 11500
-Wire Wire Line
-	13500 10600 13500 11500
-Wire Wire Line
-	12600 10600 12600 12350
-Wire Wire Line
-	13200 12100 13200 10600
-Wire Wire Line
-	13050 12100 13050 10600
-Wire Wire Line
-	12900 12100 12900 10600
-Wire Wire Line
-	12750 12100 12750 10600
-Wire Wire Line
-	13350 10600 13350 11500
-Wire Wire Line
-	13350 12100 13350 11800
-Connection ~ 12600 12100
-Wire Wire Line
-	13500 12100 13500 11800
-Connection ~ 13350 12100
-Wire Wire Line
-	13650 12100 13650 11800
-Connection ~ 13500 12100
-Wire Wire Line
-	13800 12100 13800 11800
-Connection ~ 13650 12100
-Wire Wire Line
-	13950 12100 13950 11800
-Connection ~ 13800 12100
-Connection ~ 13950 12100
-Connection ~ 12750 12100
-Connection ~ 12900 12100
-Connection ~ 13050 12100
-Connection ~ 13200 12100
-$Comp
-L C C?
-U 1 1 5968BD70
-P 15300 11650
-AR Path="/596819F3/5968BD70" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968BD70" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968BD70" Ref="C?"  Part="1" 
-AR Path="/59681795/5968BD70" Ref="C?"  Part="1" 
-F 0 "C?" H 15325 11750 50  0000 L CNN
-F 1 "C" H 15325 11550 50  0000 L CNN
-F 2 "" H 15338 11500 50  0001 C CNN
-F 3 "" H 15300 11650 50  0001 C CNN
-	1    15300 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5968BD76
-P 15450 11650
-AR Path="/596819F3/5968BD76" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968BD76" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968BD76" Ref="C?"  Part="1" 
-AR Path="/59681795/5968BD76" Ref="C?"  Part="1" 
-F 0 "C?" H 15475 11750 50  0000 L CNN
-F 1 "C" H 15475 11550 50  0000 L CNN
-F 2 "" H 15488 11500 50  0001 C CNN
-F 3 "" H 15450 11650 50  0001 C CNN
-	1    15450 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5968BD7C
-P 15600 11650
-AR Path="/596819F3/5968BD7C" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968BD7C" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968BD7C" Ref="C?"  Part="1" 
-AR Path="/59681795/5968BD7C" Ref="C?"  Part="1" 
-F 0 "C?" H 15625 11750 50  0000 L CNN
-F 1 "C" H 15625 11550 50  0000 L CNN
-F 2 "" H 15638 11500 50  0001 C CNN
-F 3 "" H 15600 11650 50  0001 C CNN
-	1    15600 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5968BD82
-P 15750 11650
-AR Path="/596819F3/5968BD82" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968BD82" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968BD82" Ref="C?"  Part="1" 
-AR Path="/59681795/5968BD82" Ref="C?"  Part="1" 
-F 0 "C?" H 15775 11750 50  0000 L CNN
-F 1 "C" H 15775 11550 50  0000 L CNN
-F 2 "" H 15788 11500 50  0001 C CNN
-F 3 "" H 15750 11650 50  0001 C CNN
-	1    15750 11650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5968BD88
-P 15900 11650
-AR Path="/596819F3/5968BD88" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968BD88" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968BD88" Ref="C?"  Part="1" 
-AR Path="/59681795/5968BD88" Ref="C?"  Part="1" 
-F 0 "C?" H 15925 11750 50  0000 L CNN
-F 1 "C" H 15925 11550 50  0000 L CNN
-F 2 "" H 15938 11500 50  0001 C CNN
-F 3 "" H 15900 11650 50  0001 C CNN
-	1    15900 11650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15900 10600 15900 11500
-Wire Wire Line
-	15750 10600 15750 11500
-Wire Wire Line
-	15600 10600 15600 11500
-Wire Wire Line
-	15450 10600 15450 11500
-Wire Wire Line
-	15300 10600 15300 11500
-Wire Wire Line
-	15900 12100 15900 11800
-Connection ~ 15900 12100
-Wire Wire Line
-	15750 12100 15750 11800
-Connection ~ 15750 12100
-Wire Wire Line
-	15600 12100 15600 11800
-Connection ~ 15600 12100
-Wire Wire Line
-	15450 12100 15450 11800
-Connection ~ 15450 12100
-Wire Wire Line
-	15300 12100 15300 11800
-Connection ~ 15300 12100
-Connection ~ 16050 12100
-Connection ~ 16200 12100
-Connection ~ 16350 12100
-Wire Wire Line
-	16650 12100 12600 12100
-Connection ~ 16500 12100
 Wire Wire Line
 	20350 5950 18850 5950
 Wire Wire Line
@@ -824,89 +361,6 @@ Wire Wire Line
 	20350 5800 18850 5800
 Text Label 20600 9400 2    60   ~ 0
 GND
-$Comp
-L C C?
-U 1 1 5968F7C3
-P 19900 8650
-AR Path="/596819F3/5968F7C3" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968F7C3" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968F7C3" Ref="C?"  Part="1" 
-AR Path="/59681795/5968F7C3" Ref="C?"  Part="1" 
-F 0 "C?" H 19925 8750 50  0000 L CNN
-F 1 "C" H 19925 8550 50  0000 L CNN
-F 2 "" H 19938 8500 50  0001 C CNN
-F 3 "" H 19900 8650 50  0001 C CNN
-	1    19900 8650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C?
-U 1 1 5968F7C9
-P 19900 8500
-AR Path="/596819F3/5968F7C9" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968F7C9" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968F7C9" Ref="C?"  Part="1" 
-AR Path="/59681795/5968F7C9" Ref="C?"  Part="1" 
-F 0 "C?" H 19925 8600 50  0000 L CNN
-F 1 "C" H 19925 8400 50  0000 L CNN
-F 2 "" H 19938 8350 50  0001 C CNN
-F 3 "" H 19900 8500 50  0001 C CNN
-	1    19900 8500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C?
-U 1 1 5968F7CF
-P 19900 8350
-AR Path="/596819F3/5968F7CF" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968F7CF" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968F7CF" Ref="C?"  Part="1" 
-AR Path="/59681795/5968F7CF" Ref="C?"  Part="1" 
-F 0 "C?" H 19925 8450 50  0000 L CNN
-F 1 "C" H 19925 8250 50  0000 L CNN
-F 2 "" H 19938 8200 50  0001 C CNN
-F 3 "" H 19900 8350 50  0001 C CNN
-	1    19900 8350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C?
-U 1 1 5968F7D5
-P 19900 8200
-AR Path="/596819F3/5968F7D5" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968F7D5" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968F7D5" Ref="C?"  Part="1" 
-AR Path="/59681795/5968F7D5" Ref="C?"  Part="1" 
-F 0 "C?" H 19925 8300 50  0000 L CNN
-F 1 "C" H 19925 8100 50  0000 L CNN
-F 2 "" H 19938 8050 50  0001 C CNN
-F 3 "" H 19900 8200 50  0001 C CNN
-	1    19900 8200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C?
-U 1 1 5968F7DB
-P 19900 8050
-AR Path="/596819F3/5968F7DB" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968F7DB" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968F7DB" Ref="C?"  Part="1" 
-AR Path="/59681795/5968F7DB" Ref="C?"  Part="1" 
-F 0 "C?" H 19925 8150 50  0000 L CNN
-F 1 "C" H 19925 7950 50  0000 L CNN
-F 2 "" H 19938 7900 50  0001 C CNN
-F 3 "" H 19900 8050 50  0001 C CNN
-	1    19900 8050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	18850 8050 19750 8050
-Wire Wire Line
-	18850 8200 19750 8200
-Wire Wire Line
-	18850 8350 19750 8350
-Wire Wire Line
-	18850 8500 19750 8500
 Wire Wire Line
 	18850 9400 20600 9400
 Wire Wire Line
@@ -917,88 +371,11 @@ Wire Wire Line
 	20350 9100 18850 9100
 Wire Wire Line
 	20350 9250 18850 9250
-Wire Wire Line
-	18850 8650 19750 8650
-Wire Wire Line
-	20350 8650 20050 8650
 Connection ~ 20350 9400
-Wire Wire Line
-	20350 8500 20050 8500
-Connection ~ 20350 8650
-Wire Wire Line
-	20350 8350 20050 8350
-Connection ~ 20350 8500
-Wire Wire Line
-	20350 8200 20050 8200
-Connection ~ 20350 8350
-Wire Wire Line
-	20350 8050 20050 8050
-Connection ~ 20350 8200
-Connection ~ 20350 8050
 Connection ~ 20350 9250
 Connection ~ 20350 9100
 Connection ~ 20350 8950
 Connection ~ 20350 8800
-$Comp
-L C C?
-U 1 1 5968F7FA
-P 19900 6700
-AR Path="/596819F3/5968F7FA" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968F7FA" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968F7FA" Ref="C?"  Part="1" 
-AR Path="/59681795/5968F7FA" Ref="C?"  Part="1" 
-F 0 "C?" H 19925 6800 50  0000 L CNN
-F 1 "C" H 19925 6600 50  0000 L CNN
-F 2 "" H 19938 6550 50  0001 C CNN
-F 3 "" H 19900 6700 50  0001 C CNN
-	1    19900 6700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C?
-U 1 1 5968F800
-P 19900 6550
-AR Path="/596819F3/5968F800" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968F800" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968F800" Ref="C?"  Part="1" 
-AR Path="/59681795/5968F800" Ref="C?"  Part="1" 
-F 0 "C?" H 19925 6650 50  0000 L CNN
-F 1 "C" H 19925 6450 50  0000 L CNN
-F 2 "" H 19938 6400 50  0001 C CNN
-F 3 "" H 19900 6550 50  0001 C CNN
-	1    19900 6550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C?
-U 1 1 5968F806
-P 19900 6400
-AR Path="/596819F3/5968F806" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968F806" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968F806" Ref="C?"  Part="1" 
-AR Path="/59681795/5968F806" Ref="C?"  Part="1" 
-F 0 "C?" H 19925 6500 50  0000 L CNN
-F 1 "C" H 19925 6300 50  0000 L CNN
-F 2 "" H 19938 6250 50  0001 C CNN
-F 3 "" H 19900 6400 50  0001 C CNN
-	1    19900 6400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C?
-U 1 1 5968F80C
-P 19900 6250
-AR Path="/596819F3/5968F80C" Ref="C?"  Part="1" 
-AR Path="/596819F5/5968F80C" Ref="C?"  Part="1" 
-AR Path="/596819F7/5968F80C" Ref="C?"  Part="1" 
-AR Path="/59681795/5968F80C" Ref="C?"  Part="1" 
-F 0 "C?" H 19925 6350 50  0000 L CNN
-F 1 "C" H 19925 6150 50  0000 L CNN
-F 2 "" H 19938 6100 50  0001 C CNN
-F 3 "" H 19900 6250 50  0001 C CNN
-	1    19900 6250
-	0    -1   -1   0   
-$EndComp
 $Comp
 L C C?
 U 1 1 5968F812
@@ -1017,156 +394,14 @@ $EndComp
 Wire Wire Line
 	18850 6100 19750 6100
 Wire Wire Line
-	18850 6250 19750 6250
-Wire Wire Line
-	18850 6400 19750 6400
-Wire Wire Line
-	18850 6550 19750 6550
-Wire Wire Line
-	18850 6700 19750 6700
-Wire Wire Line
 	20350 6100 20050 6100
 Connection ~ 20350 6100
-Wire Wire Line
-	20350 6250 20050 6250
-Connection ~ 20350 6250
-Wire Wire Line
-	20350 6400 20050 6400
-Connection ~ 20350 6400
-Wire Wire Line
-	20350 6550 20050 6550
-Connection ~ 20350 6550
-Wire Wire Line
-	20350 6700 20050 6700
-Connection ~ 20350 6700
 Connection ~ 20350 5950
 Connection ~ 20350 5800
 Connection ~ 20350 5650
-Wire Wire Line
-	20350 5200 20350 9400
 Connection ~ 20350 5500
 Text Label 1100 4950 0    60   ~ 0
 GND
-$Comp
-L C C?
-U 1 1 5969051B
-P 1800 5850
-AR Path="/596819F3/5969051B" Ref="C?"  Part="1" 
-AR Path="/596819F5/5969051B" Ref="C?"  Part="1" 
-AR Path="/596819F7/5969051B" Ref="C?"  Part="1" 
-AR Path="/59681795/5969051B" Ref="C?"  Part="1" 
-F 0 "C?" H 1825 5950 50  0000 L CNN
-F 1 "C" H 1825 5750 50  0000 L CNN
-F 2 "" H 1838 5700 50  0001 C CNN
-F 3 "" H 1800 5850 50  0001 C CNN
-	1    1800 5850
-	0    1    1    0   
-$EndComp
-$Comp
-L C C?
-U 1 1 59690521
-P 1800 6000
-AR Path="/596819F3/59690521" Ref="C?"  Part="1" 
-AR Path="/596819F5/59690521" Ref="C?"  Part="1" 
-AR Path="/596819F7/59690521" Ref="C?"  Part="1" 
-AR Path="/59681795/59690521" Ref="C?"  Part="1" 
-F 0 "C?" H 1825 6100 50  0000 L CNN
-F 1 "C" H 1825 5900 50  0000 L CNN
-F 2 "" H 1838 5850 50  0001 C CNN
-F 3 "" H 1800 6000 50  0001 C CNN
-	1    1800 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L C C?
-U 1 1 59690527
-P 1800 6150
-AR Path="/596819F3/59690527" Ref="C?"  Part="1" 
-AR Path="/596819F5/59690527" Ref="C?"  Part="1" 
-AR Path="/596819F7/59690527" Ref="C?"  Part="1" 
-AR Path="/59681795/59690527" Ref="C?"  Part="1" 
-F 0 "C?" H 1825 6250 50  0000 L CNN
-F 1 "C" H 1825 6050 50  0000 L CNN
-F 2 "" H 1838 6000 50  0001 C CNN
-F 3 "" H 1800 6150 50  0001 C CNN
-	1    1800 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L C C?
-U 1 1 5969052D
-P 1800 6300
-AR Path="/596819F3/5969052D" Ref="C?"  Part="1" 
-AR Path="/596819F5/5969052D" Ref="C?"  Part="1" 
-AR Path="/596819F7/5969052D" Ref="C?"  Part="1" 
-AR Path="/59681795/5969052D" Ref="C?"  Part="1" 
-F 0 "C?" H 1825 6400 50  0000 L CNN
-F 1 "C" H 1825 6200 50  0000 L CNN
-F 2 "" H 1838 6150 50  0001 C CNN
-F 3 "" H 1800 6300 50  0001 C CNN
-	1    1800 6300
-	0    1    1    0   
-$EndComp
-$Comp
-L C C?
-U 1 1 59690533
-P 1800 6450
-AR Path="/596819F3/59690533" Ref="C?"  Part="1" 
-AR Path="/596819F5/59690533" Ref="C?"  Part="1" 
-AR Path="/596819F7/59690533" Ref="C?"  Part="1" 
-AR Path="/59681795/59690533" Ref="C?"  Part="1" 
-F 0 "C?" H 1825 6550 50  0000 L CNN
-F 1 "C" H 1825 6350 50  0000 L CNN
-F 2 "" H 1838 6300 50  0001 C CNN
-F 3 "" H 1800 6450 50  0001 C CNN
-	1    1800 6450
-	0    1    1    0   
-$EndComp
-$Comp
-L C C?
-U 1 1 59690539
-P 1800 7950
-AR Path="/596819F3/59690539" Ref="C?"  Part="1" 
-AR Path="/596819F5/59690539" Ref="C?"  Part="1" 
-AR Path="/596819F7/59690539" Ref="C?"  Part="1" 
-AR Path="/59681795/59690539" Ref="C?"  Part="1" 
-F 0 "C?" H 1825 8050 50  0000 L CNN
-F 1 "C" H 1825 7850 50  0000 L CNN
-F 2 "" H 1838 7800 50  0001 C CNN
-F 3 "" H 1800 7950 50  0001 C CNN
-	1    1800 7950
-	0    1    1    0   
-$EndComp
-$Comp
-L C C?
-U 1 1 5969053F
-P 1800 8100
-AR Path="/596819F3/5969053F" Ref="C?"  Part="1" 
-AR Path="/596819F5/5969053F" Ref="C?"  Part="1" 
-AR Path="/596819F7/5969053F" Ref="C?"  Part="1" 
-AR Path="/59681795/5969053F" Ref="C?"  Part="1" 
-F 0 "C?" H 1825 8200 50  0000 L CNN
-F 1 "C" H 1825 8000 50  0000 L CNN
-F 2 "" H 1838 7950 50  0001 C CNN
-F 3 "" H 1800 8100 50  0001 C CNN
-	1    1800 8100
-	0    1    1    0   
-$EndComp
-$Comp
-L C C?
-U 1 1 59690545
-P 1800 8250
-AR Path="/596819F3/59690545" Ref="C?"  Part="1" 
-AR Path="/596819F5/59690545" Ref="C?"  Part="1" 
-AR Path="/596819F7/59690545" Ref="C?"  Part="1" 
-AR Path="/59681795/59690545" Ref="C?"  Part="1" 
-F 0 "C?" H 1825 8350 50  0000 L CNN
-F 1 "C" H 1825 8150 50  0000 L CNN
-F 2 "" H 1838 8100 50  0001 C CNN
-F 3 "" H 1800 8250 50  0001 C CNN
-	1    1800 8250
-	0    1    1    0   
-$EndComp
 $Comp
 L C C?
 U 1 1 5969054B
@@ -1180,21 +415,6 @@ F 1 "C" H 1825 8300 50  0000 L CNN
 F 2 "" H 1838 8250 50  0001 C CNN
 F 3 "" H 1800 8400 50  0001 C CNN
 	1    1800 8400
-	0    1    1    0   
-$EndComp
-$Comp
-L C C?
-U 1 1 59690551
-P 1800 7800
-AR Path="/596819F3/59690551" Ref="C?"  Part="1" 
-AR Path="/596819F5/59690551" Ref="C?"  Part="1" 
-AR Path="/596819F7/59690551" Ref="C?"  Part="1" 
-AR Path="/59681795/59690551" Ref="C?"  Part="1" 
-F 0 "C?" H 1825 7900 50  0000 L CNN
-F 1 "C" H 1825 7700 50  0000 L CNN
-F 2 "" H 1838 7650 50  0001 C CNN
-F 3 "" H 1800 7800 50  0001 C CNN
-	1    1800 7800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1215,37 +435,10 @@ Wire Wire Line
 	1350 8850 2850 8850
 Wire Wire Line
 	1350 8700 2850 8700
-Wire Wire Line
-	1650 5850 1350 5850
 Connection ~ 1350 4950
 Wire Wire Line
-	1350 6000 1650 6000
-Connection ~ 1350 5850
-Wire Wire Line
-	1350 6150 1650 6150
-Connection ~ 1350 6000
-Wire Wire Line
-	1350 6300 1650 6300
-Connection ~ 1350 6150
-Wire Wire Line
 	1350 6450 1650 6450
-Connection ~ 1350 6300
-Wire Wire Line
-	1350 8400 1650 8400
 Connection ~ 1350 6450
-Wire Wire Line
-	1650 8250 1350 8250
-Connection ~ 1350 8250
-Wire Wire Line
-	1650 8100 1350 8100
-Connection ~ 1350 8100
-Wire Wire Line
-	1650 7950 1350 7950
-Connection ~ 1350 7950
-Wire Wire Line
-	1650 7800 1350 7800
-Connection ~ 1350 7800
-Connection ~ 1350 8400
 Connection ~ 1350 8550
 Connection ~ 1350 8700
 Connection ~ 1350 8850
@@ -1255,30 +448,12 @@ Connection ~ 1350 5250
 Connection ~ 1350 5400
 Connection ~ 1350 5700
 Wire Wire Line
-	1350 4950 1350 9150
-Wire Wire Line
 	1350 9150 2850 9150
-Wire Wire Line
-	1950 7800 2850 7800
-Wire Wire Line
-	1950 7950 2850 7950
-Wire Wire Line
-	1950 8100 2850 8100
-Wire Wire Line
-	1950 8250 2850 8250
 Wire Wire Line
 	1950 8400 2850 8400
 Wire Wire Line
 	2850 5550 1350 5550
 Connection ~ 1350 5550
-Wire Wire Line
-	1950 5850 2850 5850
-Wire Wire Line
-	1950 6000 2850 6000
-Wire Wire Line
-	1950 6150 2850 6150
-Wire Wire Line
-	1950 6300 2850 6300
 Wire Wire Line
 	1950 6450 2850 6450
 Wire Wire Line
@@ -1313,4 +488,282 @@ NoConn ~ 11700 10600
 NoConn ~ 11550 10600
 NoConn ~ 10800 10600
 NoConn ~ 10650 10600
+Wire Wire Line
+	4800 12100 9000 12100
+$Comp
+L C C?
+U 1 1 5976CB87
+P 8100 11650
+F 0 "C?" H 8125 11750 50  0000 L CNN
+F 1 "C" H 8125 11550 50  0000 L CNN
+F 2 "" H 8138 11500 50  0001 C CNN
+F 3 "" H 8100 11650 50  0001 C CNN
+	1    8100 11650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5976CC28
+P 6150 11650
+F 0 "C?" H 6175 11750 50  0000 L CNN
+F 1 "C" H 6175 11550 50  0000 L CNN
+F 2 "" H 6188 11500 50  0001 C CNN
+F 3 "" H 6150 11650 50  0001 C CNN
+	1    6150 11650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 10600 6150 11500
+Wire Wire Line
+	6150 11800 6150 12100
+Connection ~ 6150 12100
+Wire Wire Line
+	5550 10600 5550 11050
+Wire Wire Line
+	5550 11050 6150 11050
+Connection ~ 6150 11050
+Wire Wire Line
+	6000 10600 6000 11050
+Connection ~ 6000 11050
+Wire Wire Line
+	5850 10600 5850 11050
+Connection ~ 5850 11050
+Wire Wire Line
+	5700 10600 5700 11050
+Connection ~ 5700 11050
+Wire Wire Line
+	8100 11800 8100 12100
+Connection ~ 8100 12100
+Wire Wire Line
+	7500 10600 7500 11050
+Wire Wire Line
+	7500 11050 8100 11050
+Connection ~ 8100 11050
+Wire Wire Line
+	7950 10600 7950 11050
+Connection ~ 7950 11050
+Wire Wire Line
+	7800 10600 7800 11050
+Connection ~ 7800 11050
+Wire Wire Line
+	7650 10600 7650 11050
+Connection ~ 7650 11050
+Text Label 14700 11400 1    60   ~ 0
+VIN_D
+Text Label 12600 12350 1    60   ~ 0
+GND
+Text Label 14100 11400 1    60   ~ 0
+VIN_A
+Wire Wire Line
+	14700 11400 14700 10600
+Wire Wire Line
+	15900 10600 15900 11500
+Wire Wire Line
+	14550 11050 14550 10600
+Wire Wire Line
+	14400 10600 14400 11050
+Wire Wire Line
+	14250 10600 14250 11050
+Wire Wire Line
+	14700 11050 15150 11050
+Wire Wire Line
+	15150 11050 15150 10600
+Connection ~ 14700 11050
+Wire Wire Line
+	15000 10600 15000 11050
+Connection ~ 15000 11050
+Wire Wire Line
+	14850 10600 14850 11050
+Connection ~ 14850 11050
+Wire Wire Line
+	12600 10600 12600 12350
+Wire Wire Line
+	13200 10600 13200 12100
+Wire Wire Line
+	13050 10600 13050 12100
+Wire Wire Line
+	12900 10600 12900 12100
+Wire Wire Line
+	12750 10600 12750 12100
+Wire Wire Line
+	16050 12100 16050 10600
+Wire Wire Line
+	16650 12100 16650 10600
+Wire Wire Line
+	16500 12100 16500 10600
+Wire Wire Line
+	16350 12100 16350 10600
+Wire Wire Line
+	16200 12100 16200 10600
+Connection ~ 14400 11050
+Connection ~ 14250 11050
+Wire Wire Line
+	14100 11050 14550 11050
+Connection ~ 14100 11050
+Wire Wire Line
+	14100 11400 14100 10600
+Connection ~ 12600 12100
+Connection ~ 16050 12100
+Connection ~ 16200 12100
+Connection ~ 16350 12100
+Connection ~ 16500 12100
+Connection ~ 12750 12100
+Connection ~ 12900 12100
+Connection ~ 13050 12100
+Connection ~ 13200 12100
+Connection ~ 16650 12100
+Wire Wire Line
+	16800 12100 12600 12100
+$Comp
+L C C?
+U 1 1 5976E1C5
+P 15900 11650
+F 0 "C?" H 15925 11750 50  0000 L CNN
+F 1 "C" H 15925 11550 50  0000 L CNN
+F 2 "" H 15938 11500 50  0001 C CNN
+F 3 "" H 15900 11650 50  0001 C CNN
+	1    15900 11650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5976E1CB
+P 13950 11650
+F 0 "C?" H 13975 11750 50  0000 L CNN
+F 1 "C" H 13975 11550 50  0000 L CNN
+F 2 "" H 13988 11500 50  0001 C CNN
+F 3 "" H 13950 11650 50  0001 C CNN
+	1    13950 11650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13950 10600 13950 11500
+Wire Wire Line
+	13950 11800 13950 12100
+Connection ~ 13950 12100
+Wire Wire Line
+	13350 10600 13350 11050
+Wire Wire Line
+	13350 11050 13950 11050
+Connection ~ 13950 11050
+Wire Wire Line
+	13800 10600 13800 11050
+Connection ~ 13800 11050
+Wire Wire Line
+	13650 10600 13650 11050
+Connection ~ 13650 11050
+Wire Wire Line
+	13500 10600 13500 11050
+Connection ~ 13500 11050
+Wire Wire Line
+	15900 11800 15900 12100
+Connection ~ 15900 12100
+Wire Wire Line
+	15300 10600 15300 11050
+Wire Wire Line
+	15300 11050 15900 11050
+Connection ~ 15900 11050
+Wire Wire Line
+	15750 10600 15750 11050
+Connection ~ 15750 11050
+Wire Wire Line
+	15600 10600 15600 11050
+Connection ~ 15600 11050
+Wire Wire Line
+	15450 10600 15450 11050
+Connection ~ 15450 11050
+Wire Wire Line
+	20350 5200 20350 9400
+$Comp
+L C C?
+U 1 1 5976E61F
+P 19925 8050
+F 0 "C?" H 19950 8150 50  0000 L CNN
+F 1 "C" H 19950 7950 50  0000 L CNN
+F 2 "" H 19963 7900 50  0001 C CNN
+F 3 "" H 19925 8050 50  0001 C CNN
+	1    19925 8050
+	0    1    1    0   
+$EndComp
+Connection ~ 20350 8050
+Wire Wire Line
+	18850 8650 19300 8650
+Wire Wire Line
+	19300 8650 19300 8050
+Connection ~ 19300 8050
+Wire Wire Line
+	18850 8200 19300 8200
+Connection ~ 19300 8200
+Wire Wire Line
+	18850 8350 19300 8350
+Connection ~ 19300 8350
+Wire Wire Line
+	18850 8500 19300 8500
+Connection ~ 19300 8500
+Wire Wire Line
+	18850 6700 19300 6700
+Wire Wire Line
+	19300 6700 19300 6100
+Connection ~ 19300 6100
+Wire Wire Line
+	18850 6250 19300 6250
+Connection ~ 19300 6250
+Wire Wire Line
+	18850 6400 19300 6400
+Connection ~ 19300 6400
+Wire Wire Line
+	18850 6550 19300 6550
+Connection ~ 19300 6550
+Wire Wire Line
+	18850 8050 19775 8050
+Wire Wire Line
+	20075 8050 20350 8050
+$Comp
+L C C?
+U 1 1 59690533
+P 1800 6450
+AR Path="/596819F3/59690533" Ref="C?"  Part="1" 
+AR Path="/596819F5/59690533" Ref="C?"  Part="1" 
+AR Path="/596819F7/59690533" Ref="C?"  Part="1" 
+AR Path="/59681795/59690533" Ref="C?"  Part="1" 
+F 0 "C?" H 1825 6550 50  0000 L CNN
+F 1 "C" H 1825 6350 50  0000 L CNN
+F 2 "" H 1838 6300 50  0001 C CNN
+F 3 "" H 1800 6450 50  0001 C CNN
+	1    1800 6450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 5850 2400 5850
+Wire Wire Line
+	2400 5850 2400 6450
+Connection ~ 2400 6450
+Wire Wire Line
+	2850 6000 2400 6000
+Connection ~ 2400 6000
+Wire Wire Line
+	2850 6150 2400 6150
+Connection ~ 2400 6150
+Wire Wire Line
+	2850 6300 2400 6300
+Connection ~ 2400 6300
+Wire Wire Line
+	1350 4950 1350 9150
+Wire Wire Line
+	2850 7800 2400 7800
+Wire Wire Line
+	2400 7800 2400 8400
+Connection ~ 2400 8400
+Wire Wire Line
+	2850 7950 2400 7950
+Connection ~ 2400 7950
+Wire Wire Line
+	2850 8100 2400 8100
+Connection ~ 2400 8100
+Wire Wire Line
+	2850 8250 2400 8250
+Connection ~ 2400 8250
+Wire Wire Line
+	1650 8400 1350 8400
+Connection ~ 1350 8400
 $EndSCHEMATC
