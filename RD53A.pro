@@ -1,4 +1,4 @@
-update=Thu 24 Aug 2017 02:22:50 PM PDT
+update=Thu 24 Aug 2017 11:12:40 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName30=rd53a
 LibName31=module
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
