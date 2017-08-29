@@ -104,7 +104,7 @@ $EndSheet
 Text Label 1150 5250 0    60   ~ 0
 HV
 Text Label 4650 5500 2    60   ~ 0
-HV
+HV_RET
 Text Label 1150 7650 0    60   ~ 0
 EXT_CMD_CLK_CONN_P
 Text Label 4650 7600 2    60   ~ 0
@@ -339,17 +339,17 @@ CMD_P
 Text Label 6100 2150 2    60   ~ 0
 CMD_N
 Text Label 9750 1300 2    60   ~ 0
-DO_A_N
+DO_C_P
 Text Label 9750 1450 2    60   ~ 0
-DO_B_N
+DO_C_N
 Text Label 6100 2700 2    60   ~ 0
-DO_A_N
+DO_B_P
 Text Label 6100 2850 2    60   ~ 0
 DO_B_N
 Text Label 9750 2700 2    60   ~ 0
-DO_A_N
+DO_D_P
 Text Label 9750 2850 2    60   ~ 0
-DO_B_N
+DO_D_N
 Text Label 6100 3050 2    60   ~ 0
 EXT_CMD_CLK_P
 Text Label 9750 1650 2    60   ~ 0
@@ -374,6 +374,34 @@ Text Label 6100 3550 2    60   ~ 0
 CMD_N
 Text Label 9750 3550 2    60   ~ 0
 CMD_N
+$Comp
+L Thermistor TH1
+U 1 1 59A1465B
+P 9250 4600
+F 0 "TH1" V 9350 4650 50  0000 C CNN
+F 1 "Thermistor" V 9150 4600 50  0000 C BNN
+F 2 "Resistors_SMD:R_0603" H 9250 4600 50  0001 C CNN
+F 3 "" H 9250 4600 50  0001 C CNN
+	1    9250 4600
+	0    1    1    0   
+$EndComp
+Text Label 8200 4600 0    60   ~ 0
+NTC
+Text Label 10300 4600 2    60   ~ 0
+NTC_RET
+Text Label 1600 1350 0    60   ~ 0
+VIN
+$Comp
+L C C90
+U 1 1 59A4F41B
+P 1800 1800
+F 0 "C90" H 1825 1900 50  0000 L CNN
+F 1 "C" H 1825 1700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 1838 1650 50  0001 C CNN
+F 3 "" H 1800 1800 50  0001 C CNN
+	1    1800 1800
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	1150 5250 2250 5250
 Wire Wire Line
@@ -456,7 +484,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 1450 1800 1450
 Wire Wire Line
-	1800 1450 1800 1350
+	1800 1350 1800 1650
 Connection ~ 1800 1350
 Wire Wire Line
 	5000 1650 6100 1650
@@ -541,23 +569,25 @@ Connection ~ 3000 4000
 Wire Wire Line
 	6900 3500 6400 3500
 Connection ~ 6400 3500
-$Comp
-L Thermistor TH1
-U 1 1 59A1465B
-P 9250 4600
-F 0 "TH1" V 9350 4650 50  0000 C CNN
-F 1 "Thermistor" V 9150 4600 50  0000 C BNN
-F 2 "Resistors_SMD:R_0603" H 9250 4600 50  0001 C CNN
-F 3 "" H 9250 4600 50  0001 C CNN
-	1    9250 4600
-	0    1    1    0   
-$EndComp
-Text Label 8200 4600 0    60   ~ 0
-NTC
 Wire Wire Line
 	8200 4600 9050 4600
-Text Label 10300 4600 2    60   ~ 0
-NTC_RET
 Wire Wire Line
 	10300 4600 9450 4600
+Connection ~ 1800 1450
+Text Label 1650 4000 0    60   ~ 0
+GND
+Text Label 1800 2200 2    60   ~ 0
+GND
+Wire Wire Line
+	1800 2200 1800 1950
+Text Label 4650 6550 2    60   ~ 0
+DO_A_N
+Text Label 4650 6700 2    60   ~ 0
+DO_B_N
+Wire Wire Line
+	3550 6550 4650 6550
+Wire Wire Line
+	3550 6700 4650 6700
+Text Label 9750 2150 2    60   ~ 0
+CMD_N
 $EndSCHEMATC
