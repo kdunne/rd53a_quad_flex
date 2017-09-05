@@ -101,9 +101,9 @@ F7 "DO_N" O R 8650 2850 60
 F8 "VIN" I L 6900 2750 60 
 F9 "VIN_RET" O L 6900 3500 60 
 $EndSheet
-Text Label 1150 5250 0    60   ~ 0
+Text Label 4650 5350 2    60   ~ 0
 HV
-Text Label 4650 5500 2    60   ~ 0
+Text Label 4650 5650 2    60   ~ 0
 HV_RET
 Text Label 1150 7650 0    60   ~ 0
 EXT_CMD_CLK_CONN_P
@@ -403,13 +403,13 @@ F 3 "" H 1800 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 5250 2250 5250
+	4650 5350 3550 5350
 Wire Wire Line
 	1150 7650 2250 7650
 Wire Wire Line
 	4650 7600 3550 7600
 Wire Wire Line
-	4650 5500 3550 5500
+	4650 5650 3550 5650
 Wire Wire Line
 	4650 6250 3550 6250
 Wire Wire Line
